@@ -1,4 +1,6 @@
 fn main() {
-    let result = fizzbuzz::fizzbuzz(1);
-    println!("{}", result);
+    for i in 1..101 {
+        let result = fizzbuzz::fizzbuzz(i);
+        println!("{}", result);
+    }
 }
